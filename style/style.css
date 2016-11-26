@@ -1,0 +1,91 @@
+body {
+  font-family:          sans-serif;
+}
+
+header {
+  background-color:     #f6f6f6;
+  height:               100px;
+}
+
+header .glyphicon {
+  position:             absolute;
+  font-size:            4em;
+  margin:               3% 10% 2% 10%;
+}
+
+.menu {
+  position:             absolute;
+  z-index:              1;
+  display:              none;
+  background-color:     rgba(230,230,230,0.5);
+  width:                30%;
+  line-height:          3em;
+}
+
+.menu ul {
+  list-style-type:      none;
+  padding:              0;
+}
+
+.menu li {
+  text-align:          center;
+  border:              2px solid white;
+}
+
+header img {
+  position:            absolute;
+  top:                 20px;
+  right:               7%;
+  width:               70px;
+}
+
+h1 {
+  color:                #2f79b9;
+  text-align:           center;
+  margin-top:           50px;
+  font-size:            3em;
+}
+
+.headshot {
+  text-align:         center;
+  margin:             50px auto 50px auto;
+}
+
+.headshot img {
+  border-radius:      100px;
+}
+
+.intro {
+  text-align:         center;
+  color:              #2f79b9;
+  font-size:          1.5em;
+  font-weight:        bold;
+  width:              70%;
+  margin:             0 auto;
+}
+
+hr {
+  text-align:         center;
+  color:              grey;
+  width:              70%;
+  margin:             50px;
+}
+
+.col-md-4 {
+  width:              30%;
+  background-color:   rgba(230,230,230,0.5);
+  margin:             10px;
+}
+
+.col-md-4 p {
+  padding:            2%;
+}
+
+.container-fluid img {
+  margin:             10%;
+  width:              60%;
+}
+
+.resume img {
+  margin:             0 auto;
+}
