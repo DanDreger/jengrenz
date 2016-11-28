@@ -8,15 +8,23 @@
 <!-- Bootstrap minified CDN addded here -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"crossorigin="anonymous">
 
-<!-- animate.css added here -->
-	<link rel="stylesheet" type="text/css" href="style/animate.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <!-- my stylesheet added here  -->
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 
+
+<!-- my stylesheet added here  -->
+<link rel="stylesheet" type="text/css" href="style/style.css">
+
 </head>
 <body>
 
+<!-- header and nav bar begin here 
+ -->
+<div id="navbar">
 <header>
 <a href="#"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
 
@@ -25,127 +33,225 @@
 
 <div class="menu">
   <ul>
-    <a href="#"><li>About Me</li></a>
-    <a href="#"><li>Work Products</li></a>
-    <a href="#"><li>Resume</li></a>
-    <a href="#"><li>Social</li></a>
+    <a href="#aboutme"><li>About Me</li></a>
+    <a href="#portfolio"><li>Work Products</li></a>
+    <a href="#contactme"><li>Contact</li></a>
+    <a href="#social"><li>Social</li></a>
   </ul>
 </div> 
+</div>
 
+<div id="aboutme">
 <h1 class="title">Jennifer Grenz</h1>
-
 <div class="headshot"> <img src="img/headshot.jpg"> </div>
-
 <p class="intro">Dynamic storyteller, mobile enthusiast, outdoor adventurer and generally upbeat person who loves to market new, exciting products!</p> 
+</div>
 
+<!-- Header and nav bar end here  -->
+
+<br>
 <hr>
 
-
 <!-- Work Example Tabs -->
-
+<div id="portfolio">
 <div class="container">
-  <h2>Work Examples</h2>
-  <p>Here are some of the decks I've built to raise capital, market companies, and lauch prouducts. </p>
+  <h1>Work Portfolio</h1>
+  <p>A decade in tech has brought a wealth of knowlege and experience. Below, you'll see examples of B2B, Software, Hardware, and Marketing innitiatives. A discription of each project can be found below the icons and you can learn more by clicking on each image.</p>
 
   <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home">Fundraising Decks</a></li>
-    <li><a data-toggle="tab" href="#menu1">Marketing Decks</a></li>
-    <li><a data-toggle="tab" href="#menu2">Prouduct Launches</a></li>
+    <li class="active"><a data-toggle="tab" href="#home">Funding</a></li>
+    <li><a data-toggle="tab" href="#menu1">Marketing</a></li>
+    <li><a data-toggle="tab" href="#menu2">Product Launch</a></li>
   </ul>
 
   <div class="tab-content">
     <div id="home" class="tab-pane fade in active">
-      <h1>Fundraising Decks</h1>
-			  <div class="row">
-			    <div class="col-sm-4">
-			      <img src="img/document.png">
-			      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			      consequat.</p> 
-			    </div>
-			    <div class="col-sm-4">
-			      <img src="img/document.png"> 
-			       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			      consequat.</p> 
-			    </div>
-			     <div class="col-sm-4">
-			      <img src="img/document.png">
-			       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			      consequat.</p>  
-			    </div>
-			  </div>
-			</div>
+		<div class="container">
+			<h1>Funding Decks</h1>
+				<div class="row">
+					<div class="col-sm-4">
+						<img src="img/document.png">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+					<div class="col-sm-4">
+						<img src="img/document.png">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+					<div class="col-sm-4">
+						<img src="img/document.png">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+				</div>
+		</div>
     </div>
-    <div id="menu1" class="tab-pane fade">
-      <h1>Marketing Decks</h1>
-			  <div class="row">
-			    <div class="col-sm-4">
-			      <img src="img/document.png">
-			      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			      consequat.</p> 
-			    </div>
-			    <div class="col-sm-4">
-			      <img src="img/document.png"> 
-			       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			      consequat.</p> 
-			    </div>
-			     <div class="col-sm-4">
-			      <img src="img/document.png">
-			       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			      consequat.</p>  
-			    </div>
-			  </div>
+
+	<div id="menu1" class="tab-pane fade">
+			<div class="container">
+				<h1>Marketing Decks</h1>
+					<div class="row">
+						<div class="col-sm-4">
+							<img src="img/document.png">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+						</div>
+						<div class="col-sm-4">
+							<img src="img/document.png">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+						</div>
+						<div class="col-sm-4">
+							<img src="img/document.png">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+						</div>
+					</div>
 			</div>
-    </div>
+	</div>
+
     <div id="menu2" class="tab-pane fade">
-      <h1>Prouduct Launch Decks</h1>
-			  <div class="row">
-			    <div class="col-sm-4">
-			      <img src="img/document.png">
-			      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			      consequat.</p> 
-			    </div>
-			    <div class="col-sm-4">
-			      <img src="img/document.png"> 
-			       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			      consequat.</p> 
-			    </div>
-			     <div class="col-sm-4">
-			      <img src="img/document.png">
-			       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			      consequat.</p>  
-			    </div>
-			  </div>
-			</div>
+      	<div class="container">
+			<h1>Prouduct Launch Decks</h1>
+				<div class="row">
+					<div class="col-sm-4">
+						<img src="img/document.png">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+					<div class="col-sm-4">
+						<img src="img/document.png">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+					<div class="col-sm-4">
+						<img src="img/document.png">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+				</div>
+		</div>
     </div>
+    
   </div>
 </div>
-
+</div>
 <!-- work example complete  -->
 
-<div class="resume"></div>
-<h1>Resume</h1>
+<br>
+<hr>
 
-<img src="img/grenzresume.jpg">
+
+<!-- Contact me section begins here 
+ -->
+<div id="contactme">
+	<h1>Contact Me</h1>
+	<p> Questions about my portfolio? Need consulting or contract work? Interested in a joint marketing initiative? I'd love to hear from you. Use the form below to drop me a line. I'll return your correspondence as quickly as I can.</p>
+
+<form id="contact-form" method="post" action="contact.php" role="form">
+
+    <div class="messages"></div>
+
+    <div class="controls">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_name">Firstname *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_lastname">Lastname *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_phone">Phone</label>
+                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <input type="submit" class="btn btn-primary btn-send" value="Send message">
+            </div>
+        </div>
+        <p class="text-muted"><strong>*</strong> These fields are required.</p>
+    </div>
+
+</form>
+</div>
+
+<!-- contact me section ends here
+ -->
+
+<br>
+<hr>
+
+<!-- Social Media Section Starts here -->
+
+<div id="social">
+	<h1>Social Media</h1>
+	<p>You can find me on all the major social media platforms, but I prefer to interact via Twitter! Gotta get to the point with only 140 characters! My feed is to the right, but feel free to reach out using any of the icons below</p>
+
+	<div class="twitterbox"> <h2>Twitter Box</h2> </div>
+	<div class="socialicons">
+		<ul>
+			<li>Twitter</li>
+			<li>Facebook</li>
+			<li>Instagram</li>
+			<li>Pinterest</li>
+		</ul>
+	</div>
+
 
 </div>
+
+
+
+
+<!-- Social media section ends here-->
 
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="js/app.js"></script>

@@ -1,5 +1,12 @@
 body {
   font-family:          sans-serif;
+  margin:               0;
+  padding:              0;
+}
+
+hr {
+  border-width:         3px;
+  color:                #f6f6f6;
 }
 
 header {
@@ -10,7 +17,15 @@ header {
 header .glyphicon {
   position:             absolute;
   font-size:            4em;
-  margin:               3% 10% 2% 10%;
+  left:                 7%;
+  top:                  22px;
+}
+
+header img {
+  position:            absolute;
+  top:                 15px;
+  right:               7%;
+  width:               70px;
 }
 
 .menu {
@@ -25,18 +40,12 @@ header .glyphicon {
 .menu ul {
   list-style-type:      none;
   padding:              0;
+  margin:               0;
 }
 
 .menu li {
   text-align:          center;
-  border:              2px solid white;
-}
-
-header img {
-  position:            absolute;
-  top:                 20px;
-  right:               7%;
-  width:               70px;
+  border-bottom:       2px solid white;
 }
 
 h1 {
@@ -64,28 +73,42 @@ h1 {
   margin:             0 auto;
 }
 
-hr {
-  text-align:         center;
-  color:              grey;
-  width:              70%;
-  margin:             50px;
+.col-sm-4 img {
+  width:             80%;
 }
 
-.col-md-4 {
-  width:              30%;
-  background-color:   rgba(230,230,230,0.5);
-  margin:             10px;
-}
-
-.col-md-4 p {
-  padding:            2%;
-}
-
-.container-fluid img {
-  margin:             10%;
-  width:              60%;
-}
-
-.resume img {
+.resume img, .container {
   margin:             0 auto;
+}
+
+.container li {
+  font-weight:        bold;
+}
+
+.col-sm-4 {
+  background-color:   #e3e3e3;
+  border:             1px solid white;
+}
+
+.container p, #contactme p, #social p {
+  margin:             30px auto 30px auto;
+  color:              #555555;
+  width:              80%;  
+  text-align:         center;
+  font-weight:        bold;       
+}
+
+form {
+  width:              90%;
+  margin:             0 auto;
+}
+
+.twitterbox {
+  width:              30%;
+  float:              right;
+  height:             400px;
+  background-color:   #2f79b9;
+  margin-right:       10%;
+  color:              white;
+  text-align:         center;
 }
