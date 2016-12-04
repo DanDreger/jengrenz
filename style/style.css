@@ -1,40 +1,61 @@
+
+
 body {
   font-family:          sans-serif;
   margin:               0;
   padding:              0;
+  background:           url("../img/rainbow.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size:    cover;
+  -o-background-size:      cover;
+  background-size:         cover;
 }
 
-hr {
-  border-width:         3px;
-  color:                #f6f6f6;
+
+h2 {
+  color:                #2f79b9;
+  width:                60%;
+  font-size:            1.1em;
+   font-family:         'Comfortaa', cursive;
+   text-align:          center;
+   font-weight:         bold;
+   padding-top:         40px;
+   margin:              0 auto;
 }
 
-header {
-  background-color:     #f6f6f6;
-  height:               100px;
+h4 {
+  margin:               0;
+  padding:              10px;
 }
 
-header .glyphicon {
-  position:             absolute;
+p {
+  color:                white;
+  font-family:          'Comfortaa', cursive;
+  font-size:            1.1em;
+}
+
+
+.glyphicon {
+  position:             fixed;
   font-size:            4em;
   left:                 7%;
   top:                  22px;
-}
-
-header img {
-  position:            absolute;
-  top:                 15px;
-  right:               7%;
-  width:               70px;
+  color:                white;
 }
 
 .menu {
-  position:             absolute;
+  position:             fixed;
+  top:                  100px;
   z-index:              1;
   display:              none;
   background-color:     rgba(230,230,230,0.5);
   width:                30%;
   line-height:          3em;
+}
+
+.menu a:hover, h4:hover {
+  color:                white;
+  background-color:     #2f79b9;
 }
 
 .menu ul {
@@ -48,67 +69,139 @@ header img {
   border-bottom:       2px solid white;
 }
 
+.intro {
+  width:              30%;
+  float:              right;
+  text-align:         center;
+  margin:             100px 100px 150px 0px;
+}
+
+.intro img {
+  border-radius:     100px;
+  border:             3px solid white;
+}
+
+
 h1 {
-  color:                #2f79b9;
+  font-family:         'Rock Salt', cursive;
+  color:                white;
   text-align:           center;
   margin-top:           50px;
   font-size:            3em;
 }
 
-.headshot {
-  text-align:         center;
-  margin:             50px auto 50px auto;
+.nav li {
+  font-size:          2em;
 }
 
-.headshot img {
-  border-radius:      100px;
+#portfolio {
+  clear:            right;
+  margin-top:       200px;
 }
 
-.intro {
-  text-align:         center;
-  color:              #2f79b9;
-  font-size:          1.5em;
-  font-weight:        bold;
-  width:              70%;
-  margin:             0 auto;
+.tabintro {
+  float:            left;
+  width:            50%;
+  margin-left:      100px;
 }
 
 .col-sm-4 img {
-  width:             80%;
+  width:             90%;
+  padding-top:       10px;
 }
 
-.resume img, .container {
-  margin:             0 auto;
+.nav-tabs > li {
+  float:             none;
+  display:           inline-block;
+} 
+
+.nav-tabs {
+  text-align:        center;
+  clear:             left;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    color:            #2f79b9;
+    background-color: white;  
+} 
+
+.tab-content {
+    background-color:  white;                 
+}
+
+.tab-content h1 {
+    color:             #2f79b9;    
+}
+
+.container {
+  width:              90%;
 }
 
 .container li {
-  font-weight:        bold;
+  font-weight:         bold;
 }
 
 .col-sm-4 {
-  background-color:   #e3e3e3;
-  border:             1px solid white;
+  text-align:          center;
+  border:              1px solid white;
+}
+
+.col-sm-4 p {
+  color:               #2f79b9;
 }
 
 .container p, #contactme p, #social p {
-  margin:             30px auto 30px auto;
-  color:              #555555;
-  width:              80%;  
-  text-align:         center;
-  font-weight:        bold;       
+  margin:              30px auto 30px auto;
+  width:               80%;  
+  text-align:          center;
+  font-weight:         bold;     
 }
 
-form {
-  width:              90%;
-  margin:             0 auto;
-}
-
-.twitterbox {
-  width:              30%;
+.contacttop {
+  width:              40%;
   float:              right;
-  height:             400px;
-  background-color:   #2f79b9;
-  margin-right:       10%;
-  color:              white;
+  margin:             100px 50px 500px 0px;
   text-align:         center;
+  
 }
+
+.contacttop a {
+  background-color:    white;
+}
+
+footer {
+  background-color:     white;
+  height:               100px;
+  clear:                right;
+  width:                100%;
+  text-align:           center;
+}
+
+footer p {
+  width:                70%;
+  margin:               0 auto;
+  padding-top:          20px;
+  font-family:          sans-serif;
+}
+
+.modal-title {
+  font-size:            5em;
+  color:                #2f79b9;
+}
+
+.col-xs-4 {
+  color:                #2f79b9;
+}
+
+@media (max-width: 500px) {
+
+    .intro {
+      float:              none;
+      margin:             0 auto;
+      display:            block;
+    }
+
+
+
+}
+
